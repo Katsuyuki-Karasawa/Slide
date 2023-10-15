@@ -1,9 +1,8 @@
 ---
 marp: true
-theme: wave
+theme: academic
 paginate: false
 transition: fade 0.3s
-backgroundImage: url("./background.svg");
 ---
 <!-- _class: lead -->
 ### 自作キーボード初心者へのアプローチ
@@ -25,7 +24,7 @@ backgroundImage: url("./background.svg");
  - 趣味はキースイッチとカスタムキーボード
  - リニアスイッチ大好き
 
- ---
+---
 <!--header: 本題-->
 # 伝えたいこと
 
