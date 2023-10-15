@@ -1,17 +1,43 @@
 ---
-marp: true # marpでスライドにするときは必須
-theme: "wave" # 公式配布のテーマ
-header: "TITLE DATE" # ヘッダーの文字
-backgroundColor: white # 背景色
-headingDivider: 1 # ページ切り替えの基準を見出し1にする
-paginate: true # ページを下部に表示する
-size: 16:9 # 縦横比の設定をする、4:3か16:9が多い
+marp: true
+theme: "wave"
+backgroundColor: white
+headingDivider: 1
+paginate: true
+size: 16:9
 transition: fade 0.3s
+backgroundImage: url("./background.svg");
 ---
+
+# ガジェオタから見る、Googleと生成AI
+発表者: L4Ph
+
 # 誰?
 
-- キーボードオタク
+- キーボード / ガジェット / 音響 / マウス / 自作PC etc...のオタク
+- LT会を開こうと提案だけして、実際にはすべて投げ出した人(ごめんなさい)
+- 社会人1年目
 
-```python
-import
-```
+# なにを話すの
+割とタイトル通り
+- 技術的なことはほとんどありません(雑魚エンジニアなので)
+- Google Pixel持ってる人がいたら、今後に期待してみると面白いかも
+
+# Google Pixelってなに
+Googleが開発したスマホ
+- Tensorという独自SoC(System on Chip)が搭載されたスマホ
+- 最近もPixel 8 / 8 Proが発売された(Tensor G3)
+- 性能は十二分に高い、AOSPからほとんどカスタムされていないので使いやすい
+
+# なにが独自なの
+いろいろ
+- Googleが自社で設計して、(いまは)Samsungが製造
+- (たぶん)Qualcomm依存からの脱却
+- [**TPU(Tensor Processing Unit)**](https://cloud.google.com/tpu) というのが載ってる 👈これ今日の話で重要
+
+# TPU(Tensor Processing Unit)ってなに
+Googleが開発した機械学習用のプロセッサ
+- 2016年に発表
+- 現在は5世代(v5e)が最新
+
+つまり、**すごいつよいぱそこん**
