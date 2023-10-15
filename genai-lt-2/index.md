@@ -9,8 +9,6 @@ size: 16:9 # 縦横比の設定をする、4:3か16:9が多い
 transition: fade 0.3s
 theme: wave
 ---
-![bg cover](https://raw.githubusercontent.com/JuliusWiedemann/MarpThemeWave/main/source/background.svg)
-
 # 誰?
 
 - キーボードオタク
