@@ -7,6 +7,10 @@ size: 16:9
 transition: fade 0.3s
 ---
 
+<style>
+@import 'Snapdragon GSR/ajax/libs/font-awesome/6.4.2/css/all.min.css';
+</style>
+
 <!-- _class: lead -->
 # ガジェオタと<i class="fa-brands fa-google" style="color: #66b9d2;"></i>とAI
 ### 発表者: L4Ph
@@ -76,17 +80,36 @@ AMDなら**Instinct**とか
 ---
 ![bg bottom:20%](https://storage.googleapis.com/zenn-user-upload/1003622b6afe47f53e70ac84.gif)
 
-# 主題
+---
+
+## 主題
 みんな分かるようなお話をします。オタクの妄想程度に聞いてください。
 
-# Googleはなにをしたいのか
+---
+
+## Googleはなにをしたいのか
 結論だけ先に述べると
 **モバイル**で**オンデバイス**で**いろいろ**やりたい。
 
-# そのいろいろって?
+---
+
+## そのいろいろって?
 - アップスケール
 - フレーム補完
 - 指紋/顔認証精度の向上
 - Pixel Launcherのアクセシビリティの向上
 - Google製品とのインテグレーション向上
 - pKVMの活用
+
+他にもいくつかありますが、パッと思い浮かぶのだとこれくらい
+
+---
+
+## アップスケール
+これは比較的分かりやすいと思います。  
+- NvidiaでいうDLSS  
+- AMDでいうFSR  
+- Qualcomm: Snapdragon GSR
+など。
+本来であればGPUを使う処理ですが、GPUよりも効率的に実行できますし、なにより消費電力が少ない。  
+ゲームに限らず、OSレベル、カーネルレベルでのサポートが入れることができる可能性を秘めています。
