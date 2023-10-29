@@ -7,12 +7,8 @@ size: 16:9
 transition: fade 0.3s
 ---
 
-<style>
-@import 'Snapdragon GSR/ajax/libs/font-awesome/6.4.2/css/all.min.css';
-</style>
-
 <!-- _class: lead -->
-# ガジェオタと<i class="fa-brands fa-google" style="color: #66b9d2;"></i>とAI
+# Google PixelとAI
 ### 発表者: L4Ph
 
 
@@ -27,6 +23,8 @@ transition: fade 0.3s
 - 社会人1年目
 - 元遊舎工房の舎員 <i class="fa-regular fa-keyboard" style="color: #66b9d2;"></i> / 現一般エンジニア
 ![bg left:30%](https://media.discordapp.net/attachments/915026053481771072/1161133756330033242/PXL_20231010_025009615.jpg?ex=6549a614&is=65373114&hm=7fe82921c18b40479cca4f94413c821836e4112099f80e098e0b841a78881c78&=&width=668&height=890)
+- 重度キーボードオタクです ぜひ語り合いましょう
+
 ---
 
 ## なにを話すの
@@ -60,9 +58,9 @@ Googleが開発したスマホ
 ## TPU(Tensor Processing Unit)って?
 ### Googleが開発した機械学習用のプロセッサ
 
-Nvidiaなら**A100** / **H100**
-AMDなら**Instinct**とか
-つまり、**すごいAI向けのつよつよぱそこん**
+Nvidiaなら**A100** / **H100** / **X100**
+AMDなら**Instinct**シリーズ
+つまり、**すごいAI向けのつよつよプロセッサ**
 
 ![bg right:35%](https://storage.googleapis.com/zenn-user-upload/76d0a7d3bb3a27536788cfef.gif)
 
@@ -83,17 +81,12 @@ AMDなら**Instinct**とか
 ---
 
 ## 主題
-みんな分かるようなお話をします。オタクの妄想程度に聞いてください。
+ここからはオタクの妄想を話すだけです。
+
 
 ---
 
-## Googleはなにをしたいのか
-結論だけ先に述べると
-**モバイル**で**オンデバイス**で**いろいろ**やりたい。
-
----
-
-## そのいろいろって?
+## どういうものができそうなのか
 - アップスケール
 - フレーム補完
 - 指紋/顔認証精度の向上
@@ -107,9 +100,25 @@ AMDなら**Instinct**とか
 
 ## アップスケール
 これは比較的分かりやすいと思います。  
-- NvidiaでいうDLSS  
+- NvでいうDLSS  
 - AMDでいうFSR  
 - Qualcomm: Snapdragon GSR
-など。
-本来であればGPUを使う処理ですが、GPUよりも効率的に実行できますし、なにより消費電力が少ない。  
-ゲームに限らず、OSレベル、カーネルレベルでのサポートが入れることができる可能性を秘めています。
+- intel: XeSS
+
+など。  
+
+アップスケールを行うことで、ネイティブ解像度と比較して大幅に負荷が減少します。
+
+---
+
+
+## フレーム補完
+現在のフレームから、次のフレームを推定することでフレームを生成し、フレーム間に挿入することでFPSを向上させる技術です。
+本来スマホでフレーム補完を行う場合は、PixelworksのMEMCチップが必要です。
+代替としてTPUを使用することも可能性がありますし、MEMCチップのコストを大幅に減らすことができます。
+
+AMD RadeonのFSR3から実装されているFluid Motionが同じ技術にあたります。
+
+---
+
+## 
