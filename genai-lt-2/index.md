@@ -89,8 +89,6 @@ AMDなら**Instinct**シリーズ
 ## どういうものができそうなのか
 - アップスケール
 - フレーム補完
-- 指紋/顔認証精度の向上
-- Pixel Launcherのアクセシビリティの向上
 - Google製品とのインテグレーション向上
 - pKVMの活用
 
@@ -100,7 +98,7 @@ AMDなら**Instinct**シリーズ
 
 ## アップスケール
 これは比較的分かりやすいと思います。  
-- NvでいうDLSS  
+- NVIDIAでいうDLSS  
 - AMDでいうFSR  
 - Qualcomm: Snapdragon GSR
 - intel: XeSS
@@ -121,4 +119,7 @@ AMD RadeonのFSR3から実装されているFluid Motionが同じ技術にあた
 
 ---
 
-## 
+## Google製品とのインテグレーション向上
+これはもう想像つくと思います。  
+GMSという世界最大とも言えるコンテンツを所有しており、これを活用しない手はありません。
+Youtubeからマップ、KeepやDocsといったアプリケーションまでもが
