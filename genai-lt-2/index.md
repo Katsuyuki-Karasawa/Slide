@@ -30,6 +30,12 @@ transition: fade 0.3s
 
 ---
 
+<!-- _class: lead -->
+## はじめに
+### Google LLCが嫌いな人挙手✋
+
+---
+
 ## なにを話すの
 
 割とタイトル通り
