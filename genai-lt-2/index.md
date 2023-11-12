@@ -229,6 +229,6 @@ GoogleのAI関連がそこまで強くないのかもと思った人は、1度�
 - Milkeyway米可维外设 x Onekey Studio Barista
 
 で書きました。
-![bg opacity:0.2](./PXL_20231111_045852039.jpg)
+![bg opacity:0.1](./PXL_20231111_045852039.jpg)
 
 この後の交流会で試打できます!
