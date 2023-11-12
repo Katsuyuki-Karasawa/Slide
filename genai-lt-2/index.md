@@ -13,7 +13,7 @@ transition: fade 0.3s
 <!-- _class: lead -->
 # Google PixelとAI
 
-## 発表者: [L4Ph(Katsuyuki-Karasawa)](https://x.com/R0u9h)
+## [L4Ph(Katsuyuki-Karasawa)](https://x.com/R0u9h)
 
 ![bg right:40%](https://github.com/Katsuyuki-Karasawa.png)
 
