@@ -7,6 +7,9 @@ size: 16:9
 transition: fade 0.3s
 ---
 
+# https://git.l4ph.moe からアクセスできます!
+## お手元のデバイスで閲覧したい方は、こちらからどうぞ!
+
 <!-- _class: lead -->
 # Google PixelとAI
 
