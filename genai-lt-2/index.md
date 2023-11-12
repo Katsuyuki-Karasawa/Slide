@@ -58,7 +58,7 @@ Googleが開発したスマホ
 - カスタムROM勢にも優しく、ROM焼きしてもFeliCaが消えない
   - [海外モデルにも日本基準でFeliCaが載ってる](https://github.com/jjyao88/unlock-felica-pixel) 👈えらい
 
-![bg opacity:0.1](https://lh3.googleusercontent.com/r7H10oZ5rVfJjr8IuAmqWHxT_2dt41WSEHW88d0UfvX6VeH_yWDCW35sTs4m1Y2nprz1QCweTLVpi5l8w76rz1yojyaFseDxPOiJnL_vIrnTKp7ylwMMdD4rAaut6iXvBTl1Mt0SVDIpy_Tw2a_dHclfr5BsSi1uTPyRIE57qDL_e5ikMMupAra3RbpCWug)
+![bg opacity:0.2](https://lh3.googleusercontent.com/r7H10oZ5rVfJjr8IuAmqWHxT_2dt41WSEHW88d0UfvX6VeH_yWDCW35sTs4m1Y2nprz1QCweTLVpi5l8w76rz1yojyaFseDxPOiJnL_vIrnTKp7ylwMMdD4rAaut6iXvBTl1Mt0SVDIpy_Tw2a_dHclfr5BsSi1uTPyRIE57qDL_e5ikMMupAra3RbpCWug)
 
 ---
 
@@ -226,5 +226,6 @@ GoogleのAI関連がそこまで強くないのかもと思った人は、1度�
 - Milkeyway米可维外设 x Onekey Studio Barista
 
 で書きました。
+![bg opacity:0.2](./PXL_20231111_045852039.jpg)
 
 この後の交流会で試打できます!
