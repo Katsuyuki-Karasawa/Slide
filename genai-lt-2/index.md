@@ -35,7 +35,7 @@ transition: fade 0.3s
 
 <!-- _class: lead -->
 ## はじめに
-### Google LLCが嫌いな人挙手✋
+### Google LLCが好きな人挙手✋
 
 ---
 
